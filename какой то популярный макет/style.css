@@ -1,0 +1,326 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.maim-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.maim-menu a {
+    text-decoration: none;
+    color: #000;
+}
+header {
+    height: 100px;
+}
+/* секция 1 */
+.section1 {
+  background-image: url(img/section1.png);
+  width: 1140px;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+}
+.section1-img {
+    width: 100%;
+    height: 100%;
+    background: #2c2b2be0;
+}
+.text-section1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: #FFFFF0;
+    letter-spacing: 4px;
+    margin: 0;
+}
+.text-section2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300;
+    color: #FFFFF0;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+}
+.btn-section1 {
+    text-decoration: none;
+    color:#FFFFF0;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 1px;
+    border: 3px solid #FFFFF0;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-section2 {
+    text-decoration: none;
+    color:#FFFFF0;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 1px;
+    background-color: #00897b;
+    font-family: 'Roboto', sans-serif;
+}
+.section1-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Секция 2 */
+.text-center-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.About-Us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:  center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+}
+/* Секция 3 */
+.section3 {
+    height: 1100px;
+    background-color: #e4fdf9;
+}
+.text-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-section3 h2 {
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-section3 p {
+    margin-bottom: 80px;
+}
+.process-work {
+    margin: 10px 10px;
+    width: 300px;
+    height: 370px;
+    background-color: #FFFFF0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+    font-family: 'Open Sans', sans-serif;  
+}
+.process-work:hover {
+    background: #00897b; 
+    color: #fff;
+    box-shadow: 0 0 5px 4px #D3D3D3;
+    
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.btn-section3 {
+    text-decoration: none;
+    color:#000000;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 1px;
+    border: 3px solid #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-section3:hover {
+    color: #fff;
+    border: 3px solid #ffffff;
+}
+/* Секция 4 */
+.text-section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+}
+.text-section4 p {
+    margin-bottom: 40px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 60px;
+}
+.links a {
+    text-decoration: none;
+}
+.links li {
+    list-style: none;
+}
+.btn-section4 {
+    color:#000000;
+    padding: 12px 25px;
+    font-size: 14px;
+    border-radius: 1px;
+    border: 3px solid #00897b;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 10px;
+}
+.btn-section4:hover {
+    background: #00897b;
+    color: white;
+}
+.portfolio ul, .portfolio li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.portfolio li {
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    margin: 10px 10px;
+}
+.portfolio img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+}
+.descr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    -o-transition:all .5s;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.portfolio li:hover .descr {
+    opacity: 1;
+}
+.portfolio1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* секция 5 */
+.section5 {
+    background-color:#DCDCDC;
+    height: 900px;
+}
+.text-section5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.priceing1 {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.priceing {
+    display: flex;
+    justify-content: center;
+}
+.tarif img {
+    margin: 10px 10px;
+}
+
+
+
+.process-work2 {
+    margin: 10px 10px;
+    width: 300px;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+    font-family: 'Open Sans', sans-serif; 
+    margin: -15px 12px; 
+}
+.process-work2:hover {
+    background: #ffffff; 
+    color: #fff;
+}
+.services2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.btn-section5 {
+    text-decoration: none;
+    color:#000000;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 1px;
+    border: 2px solid #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-section5:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+}
+/* секция 6 */
+.text-section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+}
+.text-section6 p {
+    margin-bottom: 40px;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.piple img {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px;
+}
+.piple h3, .piple p {
+    font-family: 'Open Sans', sans-serif;
+}
