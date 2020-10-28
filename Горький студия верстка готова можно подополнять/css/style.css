@@ -1,0 +1,36 @@
+/* Адаптация */
+@media (max-width:991px) {
+    .top-pic {
+        /* background: linear-gradient(45deg, #FF1744, #AA00FF) !important; */
+    }
+    .top-text {
+        font-size: 3em !important;
+        text-align: center !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px;
+    }
+}
+/* Навигация */
+.navbar {
+    background-color: #11357f;
+}
+/* Баннер */
+.top-pic {
+    background-image: url(../pictures/pic3.jpg);
+    background-size: cover;
+}
+.top-text {
+    font-size: 6em;
+    margin-top: 300px;
+    color: #ffffff;
+    text-align: right;
+}
+.text-bold {
+    font-weight: 600;
+}
+.advantages {
+    background: #EB0C0C;
+    background: -webkit-linear-gradient(top right, #EB0C0C, #2C01FF);
+    background: -moz-linear-gradient(top right, #EB0C0C, #2C01FF);
+    background: linear-gradient(to bottom left, #EB0C0C, #2C01FF);
+}
